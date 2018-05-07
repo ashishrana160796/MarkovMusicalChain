@@ -14,6 +14,15 @@
 
 The order of this Markov chain is not fixed, it varies according to file that is under analysis. Midi files are used  as input and for music generation considering the simplicity. For each note the duration is rounded and grouped with every note that is played at the same time. This will result in a 2D matrix storing from_notes and to_notes:time. Which will help us to get resultant markov chain. This project is using different Classical Indian Music(Raga) styles as input. Limitation of markov chains is that hidden information like HMM model cannot be utilized only probabilites from previous state can be utilized.
 
+
+---
+#### Command Used For Running Files from Home Directory
+
+* __printfile.py__ : python3 util/printfile.py _in_raga/Bageshri.mid | head -50  
+* __generator.py__ : python3 src/generator.py _in_raga/Bageshri.mid _out_raga/BageshriExtended.mid
+* __markov_chain.py__ : python3 src/markov_chain.py demo
+* __parser.py__ : python3 src/parser.py _in_raga/Bageshri.mid
+
 ---
 #### FReference and Resources
 * [Automatic Music Generation for Indian Classical Music](http://home.iitk.ac.in/~aawasthi/cs365/project/report.pdf).
