@@ -18,13 +18,13 @@ The order of this Markov chain is not fixed, it varies according to file that is
 ---
 #### Command Used For Running Files from Home Directory
 
-* __printfile.py__ : python3 util/printfile.py _in_raga/Bageshri.mid | head -50  
+* __printfile.py__ : python3 util/printfile.py _in_raga/Bageshri.mid | head -50
 * __generator.py__ : python3 src/generator.py _in_raga/Bageshri.mid _out_raga/BageshriExtended.mid
 * __markov_chain.py__ : python3 src/markov_chain.py demo
 * __parser.py__ : python3 src/parser.py _in_raga/Bageshri.mid
 
 ---
-#### FReference and Resources
+#### Reference and Resources
 * [Automatic Music Generation for Indian Classical Music](http://home.iitk.ac.in/~aawasthi/cs365/project/report.pdf).
 * [Hackernoon Arcticle : Markov Chains](https://hackernoon.com/generating-music-using-markov-chains-40c3f3f46405). 
 
